@@ -77,5 +77,4 @@
 	- Admission : 새로 참조된 Page가 잠시 머무르는 곳. LRU 기반
 	- Probation : 곧 evict 될 Page들의 모음
 	- Protected : 더 오래 큐에 머무를 Page들의 모음
-	- 바로 캐시에 넣고 빼기보다 최소한 몇 번 이상 참조된 것들을 캐시에 유지하는 방식. eviction은 Probation에서만 일어난다.
-
+	- 바로 캐시에 넣고 빼기보다 최소한 몇 번 이상 참조된 것들을 캐시에 유지하는 방식. eviction은 Probation에서만 일어난다!
